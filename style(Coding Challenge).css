@@ -1,0 +1,76 @@
+.contenitore{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    display: block;
+}
+
+#contenitore-trasparente{
+    width: 950px;
+    height: 650px;
+    background-color: rgba( 0, 0, 0, 0.5 );
+    margin: 25px 300px;
+    border-radius: 15px;
+}
+
+.logo{
+    width: 150px;
+    height: 75px;
+    margin: 25px 0 0 400px;
+}
+
+.titolo{
+    text-align: center;
+    color: rgb( 0, 225, 0);
+}
+
+.contenitore-verde{
+    background-color: rgb( 0, 225, 0 );
+    padding: 10px;
+    margin: 0 100px 0 100px;
+    text-align: center;
+}
+
+.button{
+    border-radius: 10px;
+}
+
+.persona{
+    margin: 30px 0 5px 0;
+    margin-left: 100px;
+}
+
+h3{
+    display: inline-block;
+    margin: 30px 0 5px 0;
+    color: white;
+}
+
+.freccia{
+    margin-left: 100px;
+    font-size: 13px;
+    color: white;
+}
+
+.gialla{
+    background-color: rgb( 245, 180, 30 );
+    margin: 0 620px 0 0;
+}
+
+.verde{
+    background-color: rgb( 0, 225, 0 );
+    margin: 0 380px 0 0;
+}
+
+.rossa{
+    background-color: rgb( 190, 65, 65 );
+    margin: 0 750px 0 0;
+}
+
+.linea{
+    border-radius: 5px;
+    padding: 10px;
+}
+
+*{
+    font-family: 'Poppins', 'sans-serif';
+}
